@@ -1,12 +1,10 @@
 1. Чтобы запустить сам сервер Firebird:
 
-Bash
 sudo systemctl start firebird
 (Система может попросить пароль администратора. Если препод не дал пароль от sudo, просто введи команду без sudo: systemctl start firebird).
 
 2. Чтобы проверить, что он точно работает (загорится зеленая надпись active/running):
 
-Bash
 systemctl status firebird
 
 Требуется 3-я нормальная форма.
